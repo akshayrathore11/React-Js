@@ -36,13 +36,12 @@ const Elem = {
 //   'Click Me Hello'
 // );
 
+import Counter from "./02Counter.jsx";
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {/* Switch between the components as needed */}
-    {/* <MyApp /> */}
-    {/* <App /> */}
-    <Akshay />
-
     
+    <Counter /> 
+
   </StrictMode>
 );
