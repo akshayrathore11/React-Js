@@ -40,10 +40,12 @@ import Counter from "./02Counter.jsx";
 
 import Card from "./03Card.jsx"
 
+import BgColor from "./04BgColor.jsx";
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     
-    <Counter /> 
+    <BgColor /> 
 
   </StrictMode>
 );
