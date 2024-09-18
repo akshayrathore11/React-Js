@@ -43,7 +43,7 @@ import Card from "./03Card.jsx"
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     
-    <Card /> 
+    <Counter /> 
 
   </StrictMode>
 );
