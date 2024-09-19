@@ -42,10 +42,12 @@ import Card from "./03Card.jsx"
 
 import BgColor from "./04BgColor.jsx";
 
+import PassGen from "./05PassGen.jsx"
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     
-    <BgColor /> 
+    <PassGen /> 
 
   </StrictMode>
 );
