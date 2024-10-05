@@ -1,8 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import "./index.css";
-import "./App.css";
+
 
 import App from "./App.jsx";
 import Akshay from "./01Akshay.jsx";
@@ -44,10 +43,17 @@ import BgColor from "./04BgColor.jsx";
 
 import PassGen from "./05PassGen.jsx"
 
+import MiniContext from "./06MiniContext.jsx";
+
+
+import "./index.css";
+import "./App.css";
+import "./Style.css"
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     
-    <PassGen /> 
+    <MiniContext /> 
 
   </StrictMode>
 );
