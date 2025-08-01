@@ -43,13 +43,16 @@ const App = () => {
   ];
 
   return (
-    <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
-      <div className="grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 gap-10">
-        {data.map((article, index) => (
-          <ArticleCard key={index} {...article} />
-        ))}
+    <>
+    <h1>Example of Prop Passing</h1>
+      <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 gap-10">
+          {data.map((article, index) => (
+            <ArticleCard key={index} {...article} />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

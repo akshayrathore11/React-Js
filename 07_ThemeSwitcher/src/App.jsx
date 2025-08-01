@@ -23,6 +23,10 @@ function App() {
   }, [themeMode]);
 
   return (
+
+<>
+
+<h1>Context API</h1>
     <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
       <div className="flex flex-wrap min-h-screen items-center">
         <div className="w-full">
@@ -36,6 +40,7 @@ function App() {
         </div>
       </div>
     </ThemeProvider>
+</>
   );
 }
 

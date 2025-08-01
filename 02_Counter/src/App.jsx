@@ -19,8 +19,9 @@ function App() {
 
   return (
     <>
-      <h1>Loved It !!</h1>
-      <p>React is awesome</p>
+      <h1>Undertanding React state</h1>
+      <h2>React Automatically update State </h2>
+      <h3>React is awesome</h3>
 
       <h2>Counter Value {counter}</h2>
       <h3>Counter Value {counter}</h3>
@@ -28,7 +29,6 @@ function App() {
       <h5>Counter Value {counter}</h5>
       <h6>Counter Value {counter}</h6>
 
-      <p>React Automatically update State </p>
       <button onClick={increaseValue}>Add Value</button>
       <button onClick={decreaseValue}>Remove Value</button>
     </>

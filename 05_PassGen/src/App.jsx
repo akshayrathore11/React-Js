@@ -92,6 +92,9 @@ const App = () => {
           </div>
         </div>
       </div>
+      <h1 class="flex justify-center  h-screen text-[50px] text-center">
+        Project for React hooks
+      </h1>
     </>
   );
 };

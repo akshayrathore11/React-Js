@@ -9,12 +9,14 @@ function Todos() {
   return (
     <>
       <div>Todos</div>
-      {todos.map((todo) => (
-        <li key={todo.id}>
-          {todo.text}
-          <button onClick={() => dispatch(removeTodo(todo.id))}>X</button>
-        </li>
-      ))}
+      <button onClick={() => dispatch(removeTodo(todos[0]?.id))}>
+        Remove Todo
+      </button>
+      <ul>
+        {todos.map((todo) => (
+          <li key={todo.id}>{todo.text}</li>
+        ))}
+      </ul>
     </>
   );
 }
